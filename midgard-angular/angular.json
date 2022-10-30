@@ -72,7 +72,8 @@
               "browserTarget": "midgard-angular:build:production"
             },
             "development": {
-              "browserTarget": "midgard-angular:build:development"
+              "browserTarget": "midgard-angular:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
