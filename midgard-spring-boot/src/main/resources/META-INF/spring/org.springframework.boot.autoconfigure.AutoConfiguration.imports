@@ -1,0 +1,5 @@
+com.astlaure.midgard.MidgardAutoConfiguration
+com.astlaure.midgard.admin.AdminConfig
+com.astlaure.midgard.auth.AuthConfig
+com.astlaure.midgard.blueprints.BlueprintConfig
+com.astlaure.midgard.users.UserConfig

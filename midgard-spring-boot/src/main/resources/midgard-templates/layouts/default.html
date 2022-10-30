@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:fragment="layout(main)">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midgard</title>
+    <link rel="stylesheet" href="#" th:href="@{midgard-static/styles.css}">
+</head>
+<body>
+
+<main th:replace="${main}"></main>
+
+</body>
+</html>
